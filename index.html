@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أكاديمية طويق</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700;800;900&family=Poppins:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <div class="nav-wrap">
+        <img id="logo" src="./assets/image/logo_navbar.svg" />
+
+        <ul class="nav-list">
+          <li><a class="nav-link" href=" ">الرئيسية</a></li>
+          <li><a class="nav-link" href=" ">المعسكرات والبرامج</a></li>
+          <li><a class="nav-link" href=" ">حول الأكاديمية</a></li>
+          <li><a class="nav-link" href=" ">الأكاديميات التابعة</a></li>
+          <li><a class="nav-link" href=" ">الإختبارات</a></li>
+        </ul>
+      </div>
+      <a id="sign-in" href=" ">تسجيل الدخول</a>
+    </nav>
+    <header id="header">
+      <div class="video-container">
+        <video
+          id="video"
+          src="https://tuwaiq.edu.sa/videos/introS2.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div id="overlay"></div>
+
+      <div class="title-container">
+        <div class="title-wrap">
+          <h1 class="title">تعلم تقنيات</h1>
+          <h1 class="title">المستقبل</h1>
+          <a id="start-now-btn" href="#">ابدأ اللآن</a>
+        </div>
+      </div>
+    </header>
+    <section id="bootCampsSection">
+      <h1>المعسكرات والبرامج</h1>
+      <div class="bootCampCardContainer">
+        <!---First Card-->
+        <div class="bootCamp-card">
+          <p class="bootCamp-type">برنامج</p>
+          <h2 class="bootCamp-name">إتقان حوكمة ومخاطر الأمن السيبراني</h2>
+
+          <div class="location-duration">
+            <div class="location-wrap">
+              <img id="location-icon" src="./assets/icons/location_icon.svg" />
+              <p class="bootCamp-location">الرياض</p>
+            </div>
+
+            <div class="bootCamp-duration-wrap">
+              <img id="date-icon" src="./assets/icons/caleander_icon.svg" />
+              <p class="bootCamp-duration">ايام4</p>
+            </div>
+          </div>
+
+          <div class="date-details">
+            <div>
+              <img
+                id="calendar-icon"
+                src="./assets/icons/caleander2_icon.svg"
+              />
+              <p class="date">يبدأ في 10/29/2023</p>
+            </div>
+            <a class="details-btn" href="#">التفاصيل</a>
+          </div>
+        </div>
+        <!--First Card End-->
+        <!---Second Card Start-->
+        <div class="bootCamp-card green">
+          <p class="bootCamp-type" style="color: #bee5c2">تحدي</p>
+          <h2 class="bootCamp-name">طويق فلاق يارد</h2>
+
+          <div class="location-duration">
+            <div class="location-wrap">
+              <img id="location-icon" src="./assets/icons/location_icon.svg" />
+              <p class="bootCamp-location">الرياض</p>
+            </div>
+
+            <div class="bootCamp-duration-wrap">
+              <img id="date-icon" src="./assets/icons/caleander_icon.svg" />
+              <p class="bootCamp-duration">يوم1</p>
+            </div>
+          </div>
+
+          <div class="date-details">
+            <div>
+              <img
+                id="calendar-icon"
+                src="./assets/icons/caleander2_icon.svg"
+              />
+              <p class="date">يبدأ في28/10/2023</p>
+            </div>
+            <a class="details-btn green-btn" href="#">التفاصيل</a>
+          </div>
+        </div>
+        <!--Second Card End-->
+        <!--Third Card Start-->
+        <div class="bootCamp-card">
+          <p class="bootCamp-type">برنامج</p>
+          <h2 class="bootCamp-name">أساسيات اختبار الاختراق وتقييم الثغرات</h2>
+
+          <div class="location-duration">
+            <div class="location-wrap">
+              <img id="location-icon" src="./assets/icons/location_icon.svg" />
+              <p class="bootCamp-location">الرياض</p>
+            </div>
+
+            <div class="bootCamp-duration-wrap">
+              <img id="date-icon" src="./assets/icons/caleander_icon.svg" />
+              <p class="bootCamp-duration">3أسابيع</p>
+            </div>
+          </div>
+
+          <div class="date-details">
+            <div>
+              <img
+                id="calendar-icon"
+                src="./assets/icons/caleander2_icon.svg"
+              />
+              <p class="date">يبدأ في 10/29/2023</p>
+            </div>
+            <a class="details-btn" href="#">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+      <a class="more-bootcamps" href="#">المزيد من المعسكرات والبرامج</a>
+    </section>
+    <section id="academy-numbers">
+      <h1 id="academy-numbers-title">أرقام الأكاديمية</h1>
+      <div class="number-card-container">
+        <div class="number-card">
+          <div class="number-img-container">
+            <img id="number-icon" src="./assets/icons/registerd_icon.svg" />
+          </div>
+          <h2 class="number-card-text">عدد المسجلين في البرامج</h2>
+          <h2 class="number-card-num">800.000+</h2>
+          <p>مسجل</p>
+        </div>
+
+        <div class="number-card">
+          <div class="number-img-container">
+            <img id="number-icon" src="./assets/icons/member_icon.svg" />
+          </div>
+          <h2 class="number-card-text">منــصــة ســـطــر</h2>
+          <h2 class="number-card-num">560.000+</h2>
+          <p>متدرب</p>
+        </div>
+
+        <div class="number-card">
+          <div class="number-img-container">
+            <img id="number-icon" src="./assets/icons/member_icon.svg" />
+          </div>
+          <h2 class="number-card-text">عدد المستفيدين من البرامج</h2>
+          <h2 class="number-card-num">12.000+</h2>
+          <p>متدرب حضوري</p>
+        </div>
+
+        <div class="number-card">
+          <div class="number-img-container">
+            <img id="number-icon" src="./assets/icons/rocket_icon.svg" />
+          </div>
+          <h2 class="number-card-text">عدد البرامج التدريبية</h2>
+          <h2 class="number-card-num">500+</h2>
+          <p>معسكر وبرنامج</p>
+        </div>
+      </div>
+      <a class="more-bootcamps" href="#">إقرأ تقرير منجزات الأكاديمية</a>
+    </section>
+    <section id="activity">
+      <h1 class="activity-title">أنشطة الأكاديمية</h1>
+      <div class="activity-card-container">
+        <div class="activity-card">
+          <img
+            class="activit-icon"
+            src="https://tuwaiq.edu.sa/icons/tuwaiqtalk-icons.svg"
+          />
+          <h2 class="activity-card-title">طويق<br />talk</h2>
+
+          <p class="activity-card-description">
+            ندوة أسبوعية من تقديم خبراء ومختصين، عن أبرز المواضيع المتداولة في
+            مختلف المجالات التقنية.
+          </p>
+          <a class="acivity-card-btn" href="#">إعرف اكثر</a>
+        </div>
+
+        <div class="activity-card">
+          <img
+            class="activit-icon"
+            src="https://tuwaiq.edu.sa/icons/webinar-icons.svg"
+          />
+          <h2 class="activity-card-title">ويبينـــار طويــــق</h2>
+
+          <p class="activity-card-description">
+            لقاء إثرائي من تقديم خبراء ومختصين تقنيين، لمناقشة مواضيع في مجالات
+            التقنية والبرمجة والأمن السيبراني.
+          </p>
+          <a class="acivity-card-btn" href="#">تعلم عن بعد</a>
+        </div>
+
+        <div class="activity-card">
+          <img
+            class="activit-icon"
+            src="https://tuwaiq.edu.sa/icons/coding-icons.svg"
+          />
+          <h2 class="activity-card-title">منصة سـطــــر</h2>
+
+          <p class="activity-card-description">
+            منصة تعليمية مجانية مُتاحة عن بعد وباللغة العربية في مختلف مجالات
+            البرمجة والتقنية.
+          </p>
+          <a class="acivity-card-btn" href="#">تعلم عن بعد</a>
+        </div>
+
+        <div class="activity-card">
+          <img
+            class="activit-icon"
+            src="https://tuwaiq.edu.sa/icons/pc-icons.svg"
+          />
+          <h2 class="activity-card-title">المعسكرات والبــرامـج</h2>
+
+          <p class="activity-card-description">
+            معسكرات وبرامج تقنية احترافية، لاكتساب المهارات اللازمة في مجالات
+            متخصصة وواعدة في سوق العمل.
+          </p>
+          <a class="acivity-card-btn" href="#">إنتقل لصفحة التسجيل</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h1 class="news-header">الأخبار والفعاليات</h1>
+      <div class="news-container">
+        <div class="latest-container">
+          <img
+            id="news-img"
+            src="https://tuwaiq.edu.sa/api/images/uwz0bmzu.byg.png?h=500"
+          />
+          <div class="latest-new">
+            <p class="latest-catagory">علوم وتقنيات</p>
+            <h1 class="new-header">
+              أكاديمية طويق تطلق التسجيل في تحدي "طويق فلاق يارد" بمجال الأمن
+              السيبراني
+            </h1>
+            <p class="new-description">
+              أعلنت أكاديمية طويق بدء التسجيل في تحدي طويق فلاق يارد المقرر
+              إقامته يوم السبت 23 أكتوبر الجاري بمدينة الرياض، والذي يُعنى
+              بتشجيع ودعم الكوادر الوطنية على الإبداع والابتكار في مجال الأمن
+              السيبراني، وتعزيز دور الأكاديمية في إقامة مختلف الفعاليات والأنشطة
+              التقنية في مجال الأمن السيبراني ومجالات التقنيات الحديثة. ويهدف
+              تحدي طويق فلاق يارد إلى دعم الكوادر التقنية باستخدام أبرز التقنيات
+              الحديثة في مجال الأمن السيبراني عبر منصة فلاق يارد، بأكثر من 12 ت
+              .....المزيد/p>
+            </p>
+          </div>
+        </div>
+
+        <div class="news-list">
+          <h1 class="news-header">المزيد من الأخبار</h1>
+          <div class="news-item">
+            <a href="#" class="news-title">
+              أكاديمية طويق تطلق التسجيل في تحدي "طويق فلاق يارد" بمجال الأمن
+              السيبراني
+            </a>
+            <p class="news-date">2023-10-17</p>
+            <hr />
+          </div>
+
+          <div class="news-item">
+            <a href="#" class="news-title">
+              أكاديمية طويق تطلق الشراكة مع "CompTIA" لتقديم برامج متخصصة
+              بشهادات احترافية
+            </a>
+            <p class="news-date">2023-10-09</p>
+            <hr />
+          </div>
+
+          <div class="news-item">
+            <a href="#" class="news-title">
+              أكاديمية طويق مركز عالمي معتمد لاختبارات الشهادات المهنية
+              والاحترافية
+            </a>
+            <p class="news-date">2023-10-02</p>
+            <hr />
+          </div>
+
+          <div class="news-item">
+            <a href="#" class="news-title">
+              أكاديمية طويق تعلن بدء التسجيل في معسكر طويق بمجالات الأمن
+              السيبراني
+            </a>
+            <p class="news-date">2023-09-14</p>
+            <hr />
+          </div>
+
+          <div class="news-item">
+            <a href="#" class="news-title">
+              طويق تطلق حملة "خذ العلم" بمعسكرات وبرامج تلبي احتياجات سوق العمل
+            </a>
+            <p class="news-date">2023-09-03</p>
+            <hr />
+          </div>
+          <a class="more-news-btn more-bootcamps" href="# "
+            >تحميل المزيد من الأخبار</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="companys">
+      <h1 class="companys-header">الشركاء</h1>
+      <div class="companys">
+        <img
+          id="comp-logo"
+          src="https://tuwaiq.edu.sa/img/partners/Partner8.png"
+        />
+
+        <img
+          id="comp-logo"
+          src="https://tuwaiq.edu.sa/img/partners/Partner7.png"
+        />
+
+        <img
+          id="comp-logo"
+          src="https://tuwaiq.edu.sa/img/partners/Partner6.png"
+        />
+
+        <img
+          id="comp-logo"
+          src="https://tuwaiq.edu.sa/img/partners/Partner9.png"
+        />
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <h1 id="subscribe-header">اشترك في النشرة البريدية</h1>
+      <form id="form">
+        <input type="text" class="subscribe-input" placeholder="الاسم الاول" />
+        <input type="text" class="subscribe-input" placeholder="الاسم الثاني" />
+        <input
+          type="text"
+          class="subscribe-input"
+          placeholder="أدخل البريد الالكتروني"
+        />
+        <input type="submit" class="subscribe-submit" value="إشتراك" />
+      </form>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-links">
+        <img id="logo-footer" src="https://tuwaiq.edu.sa/img/logos/logo.svg" />
+        <div class="link-container">
+          <a class="footer-link one">شارك كمدرب</a>
+          <a class="footer-link one">حول الاكاديمية</a>
+        </div>
+        <div class="link-container">
+          <a class="footer-link">الشروط والاحكام</a>
+          <a class="footer-link">سياسة الخصوصية</a>
+        </div>
+
+        <div class="socials">
+          <div class="social-links">
+            <img
+              id="discord"
+              src="https://tuwaiq.edu.sa/icons/discord-icon.svg"
+              alt=""
+              class="social-img"
+            />
+            <img
+              src="https://tuwaiq.edu.sa/icons/twitter-icon.svg"
+              alt=""
+              class="social-img"
+            />
+            <img
+              src="https://tuwaiq.edu.sa/icons/youtube-icon.svg"
+              alt=""
+              class="social-img"
+            />
+            <img
+              src="https://tuwaiq.edu.sa/icons/snapchat-icon.svg"
+              alt=""
+              class="social-img"
+            />
+            <img
+              src="https://tuwaiq.edu.sa/icons/linkedin-icon.svg"
+              alt=""
+              class="social-img"
+            />
+          </div>
+          <h2 class="social-user">@TuwaiqAcademy</h2>
+        </div>
+        <img
+          class="logo-cyp"
+          src="https://tuwaiq.edu.sa/img/logos/logos2.svg"
+        />
+      </div>
+      <p>جميع الحقوق محفوظة لأكاديمية طويق 2023</p>
+    </footer>
+  </body>
+</html>
